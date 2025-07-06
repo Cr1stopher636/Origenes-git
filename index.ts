@@ -1,1 +1,2 @@
-Segundo contenido
+console.log("Segundo contenido")
+
