@@ -1,10 +1,6 @@
-// File: 01-index.js 
-// CommonJS require module:                                                       
-const {sum} = require('./02-sum.js');
+const variable1 = require('./02-sum');
 
-
-console.log(sum(2, 3));
-
+console.log(variable1(1, 2));
 
 
 
