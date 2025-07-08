@@ -1,5 +1,6 @@
-nombre = "Ricardo";
-return nombre;
+nombre = "Ricardo"; {
+    return nombre;
+}
 
 console.log(nombre)
 
