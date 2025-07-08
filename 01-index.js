@@ -1,4 +1,6 @@
-console.log("hola mundo");
-console.log(typeof window)
+nombre = "Ricardo";
+return nombre;
+
+console.log(nombre)
 
 
