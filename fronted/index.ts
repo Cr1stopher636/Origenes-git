@@ -1,4 +1,5 @@
-type persona = {
+//Tipando un objeto
+/*type persona = {
     nombre: string;
     edad: number;
     casado: boolean;
@@ -12,7 +13,24 @@ let persona: persona = {
     nacionalidad: "Europea"
 }
 
-console.log(persona);
+console.log(persona);*/
+
+/*---------------------------------*/
+
+//Creando una clase
+
+let andres = {
+    nombre: "andres",
+    edad: 18,
+    nacionalidad: "mexicana"
+}
+
+let llave = andres.nacionalidad;
+console.log(llave);
+
+/*---------------------------------*/
+
+
 
 
 
