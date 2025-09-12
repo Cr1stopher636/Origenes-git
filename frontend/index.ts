@@ -4,11 +4,11 @@
     edad: number;
     casado: boolean;
     nacionalidad: string;
-}
+}*/
 
 // Creando un objeto tipado
 
-let persona: persona = {
+/*let persona: persona = {
     nombre: "pedro",
     edad: 22,
     casado: false,
@@ -21,34 +21,40 @@ console.log(persona);*/
 
 //Ceando una variable 
 
-let auto = "mercedes benz";
+
 
 //Creando una funcion
 
 
-console.log(anio(2020)); // 2020
+
+
+//tipando un objeto
+
+type Auto = {
+    marca: string;
+    modelo: string;
+    año: number;
+};
+
+
 
 
 
 //Creando un objeto
 
-/*let auto = {
-    marca: "mercedes benz",
-    modelo: "cls",
+let Auto: Auto = {
+    marca: "Bentley",
+    modelo: "Vantage",
     año: 2015
-} 
-
-//tipando un objeto
+};
 
 
-type auto = {
-    marca: string;
-    modelo: string;
-    año: number;
-}
+
+
+
 
 // imprimiendo el objeto
-console.log(auto);*/
+console.log(Auto);
 
 
 
