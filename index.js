@@ -32,6 +32,24 @@ console.log(auto("Subaru outback", 1999));*/
 
 
 
+//console.group(), y console.groupEnd()
+/*console.group("modelos de mercedes benz");
+console.log(" Mercedes cls");
+console.log(" Mercedes gle");
+console.log(" Mercedes glc");
+
+console.groupEnd();*/
+
+
+//console.assert(), solo sirve para avisar por consola con un mensaje, de forma sutil
+console.assert(20 < 100);
+console.assert(20 > 100); // Asertion failed
+
+
+
+
+
+
 
 
 
