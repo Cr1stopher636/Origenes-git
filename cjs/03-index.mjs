@@ -12,3 +12,6 @@ console.log(mult(3, 2));
 
 
 
+
+
+

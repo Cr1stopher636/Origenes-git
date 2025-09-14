@@ -1,1 +1,4 @@
-console.log("Este es el contenido del backend");
+var a: number = 20;
+
+console.log(a);
+
